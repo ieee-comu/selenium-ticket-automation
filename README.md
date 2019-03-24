@@ -41,5 +41,5 @@ On Ubuntu 18.04:
 
 If you are on `PyCharm`, follow these steps:
 
-`ctrl`+`alt`+`s`(settings) > `Project` > `Project Interpreter` > click `+` button on the right side
-> search `selenium` > `install package`
+`ctrl`+`alt`+`s`(settings) > `Project` > `Project Interpreter` > click `+` button on the right side >
+then search `selenium` > `install package`
