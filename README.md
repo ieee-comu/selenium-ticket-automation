@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project checks whether the ticket purchase system works on Onur Air's website
+This project checks whether the ticket purchase system works on [Onur Air](https://www.onurair.com/en/)'s website
 
 ## Prerequisites
 
@@ -40,9 +40,7 @@ On Ubuntu 18.04:
 
 * If you are on `PyCharm`, follow these steps:
 
-`ctrl`+`alt`+`s`(settings) > `Project` > `Project Interpreter` > click `+` button on the right side
-
-search `selenium` > `install package`
+`ctrl`+`alt`+`s`(settings) > `Project` > `Project Interpreter` > click `+` > search `selenium` > `install package`
 
 * move selenium packages
 <pre>
@@ -51,3 +49,8 @@ search `selenium` > `install package`
 
 ## Installation
 
+<pre>
+  $ git clone https://github.com/ieee-comu/selenium-ticket-automation.git
+  $ cd ./selenium-ticket-automation
+  $ python3 ticket-test.py
+</pre>
