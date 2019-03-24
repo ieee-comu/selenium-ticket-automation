@@ -5,16 +5,15 @@
 This project checks whether the ticket purchase system works on Onur Air's website
 
 ## Prerequisites
+
+On Ubuntu 18.04:
+
 * Python 2.7, 3.4+
 * python-pip, python3-pip
 <pre>
   $ sudo apt install python-pip
   $ sudo apt install python3-pip
 </pre>
-
-## Installation
-
-On Ubuntu 18.04:
 
 **geckodriver**
 
@@ -39,8 +38,16 @@ On Ubuntu 18.04:
   pip install selenium
 </pre>
 
-If you are on `PyCharm`, follow these steps:
+* If you are on `PyCharm`, follow these steps:
 
 `ctrl`+`alt`+`s`(settings) > `Project` > `Project Interpreter` > click `+` button on the right side
 
 search `selenium` > `install package`
+
+* move selenium packages
+<pre>
+  $ cp -r /home/<user>/.local/lib/python2.7/site-packages/selenium* /usr/local/lib/python3.6/dist-packages
+</pre>
+
+## Installation
+
