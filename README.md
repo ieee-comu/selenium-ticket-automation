@@ -8,8 +8,9 @@ This project checks whether the ticket purchase system works on [Onur Air](https
 
 On Ubuntu 18.04:
 
-* Python 2.7, 3.4+
-* python-pip, python3-pip
+**Python 2.7, 3.4+**
+
+**python-pip, python3-pip**
 <pre>
   $ sudo apt install python-pip
   $ sudo apt install python3-pip
