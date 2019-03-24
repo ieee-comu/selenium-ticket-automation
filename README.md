@@ -19,7 +19,7 @@ This project checks whether the ticket purchase system works on Onur Air's websi
 <pre>
   $ tar -xf geckodriver-v0.24.0-linux64.tar.gz (depending on your OS)
 </pre>
-  open and run the extracted file
+&nbsp;&nbsp;open and run the extracted file
   
 - selenium 3.141+
 
