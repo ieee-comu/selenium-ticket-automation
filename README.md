@@ -46,7 +46,7 @@ search `selenium` > `install package`
 
 * move selenium packages
 <pre>
-  $ cp -r /home/<user>/.local/lib/python2.7/site-packages/selenium* /usr/local/lib/python3.6/dist-packages
+  $ cp -r /home/user/.local/lib/python2.7/site-packages/selenium* /usr/local/lib/python3.6/dist-packages
 </pre>
 
 ## Installation
