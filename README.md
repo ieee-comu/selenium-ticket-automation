@@ -24,7 +24,7 @@ On Ubuntu 18.04:
   $ tar -xf geckodriver-v0.24.0-linux64.tar.gz (depending on your OS)
 </pre>
 
-* move geckodriver file to /usr/local/bin/
+* move `geckodriver` file to /usr/local/bin/
 <pre>
   $ sudo mv ./geckodriver /usr/local/bin/
 </pre>
@@ -38,3 +38,8 @@ On Ubuntu 18.04:
 <pre>
   pip install selenium
 </pre>
+
+If you are on `PyCharm`, follow these steps:
+
+`ctrl`+`alt`+`s`(settings) > `Project` > `Project Interpreter` > click `+` button on the right side
+> search `selenium` > `install package`
