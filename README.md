@@ -20,7 +20,7 @@ On Ubuntu 18.04:
 * [download](https://github.com/mozilla/geckodriver/releases) geckodriver then run the following command:
 
 <pre>
-  $ tar -xf geckodriver-v0.24.0-linux64.tar.gz (depending on your OS)
+  $ tar -xf geckodriver-v0.24.0-linux64.tar.gz (depending on your OS/distribution)
 </pre>
 
 * move `geckodriver` file to /usr/local/bin/
@@ -52,5 +52,8 @@ On Ubuntu 18.04:
 <pre>
   $ git clone https://github.com/ieee-comu/selenium-ticket-automation.git
   $ cd ./selenium-ticket-automation
+</pre>
+* run
+<pre>
   $ python3 ticket-test.py
 </pre>
