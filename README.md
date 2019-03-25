@@ -1,5 +1,8 @@
 ## Selenium Ticket Automation Project
 
+### Preview
+[Preview the project on youtube](https://www.youtube.com/watch?v=Z40lf0TU3SA)
+
 ## Introduction
 
 This project checks whether the ticket purchase system works on [Onur Air](https://www.onurair.com/en/)'s website. This test is only set to run until the time of payment.
