@@ -80,7 +80,10 @@ sleep(2)
 birth1 = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[1]/div/div")
 birth1.click()
 sleep(2)
-passengerBirthDay = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[1]/div/div/div[2]/div/div[8]")
+
+print("enter your birth day (DAY)(2, 4, 23 etc...): ", end="")
+day = int(input())
+passengerBirthDay = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[1]/div/div/div[2]/div/div[{0}]".format(day))
 passengerBirthDay.click()
 sleep(2)
 
@@ -88,7 +91,10 @@ sleep(2)
 birth2 = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[2]/div/div")
 birth2.click()
 sleep(2)
-passengerBirthMonth = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[2]/div/div/div[2]/div/div[4]")
+
+print("enter your birth month (MONTH)(1, 6, 12 etc...): ", end="")
+month = int(input())
+passengerBirthMonth = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[2]/div/div/div[2]/div/div[{0}]".format(month))
 passengerBirthMonth.click()
 sleep(2)
 
@@ -96,7 +102,10 @@ sleep(2)
 birth3 = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[3]/div/div")
 birth3.click()
 sleep(2)
-passengerBirthYear = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[3]/div/div/div[2]/div/div[10]")
+
+print("enter your birth year (YEAR)(1950, 1980, 1994 etc...): ", end="")
+year = int(input())
+passengerBirthYear = browser.find_element_by_xpath("//*[@id='bdateDiv0']/div[3]/div/div/div[2]/div/div[{0}]".format((2008-year)))
 passengerBirthYear.click()
 sleep(2)
 
@@ -107,11 +116,12 @@ ID = str(input())
 passengerID.send_keys(ID)
 sleep(2)
 
+# autofilled by the system
 # contact info
-contactName = browser.find_element_by_xpath("//*[@id='contact_name0']")
-contactName.send_keys(nameInput)
-contactSurname = browser.find_element_by_xpath("//*[@id='contact_surname0']")
-contactSurname.send_keys(surnameInput)
+# contactName = browser.find_element_by_xpath("//*[@id='contact_name0']")
+# contactName.send_keys(nameInput)
+# contactSurname = browser.find_element_by_xpath("//*[@id='contact_surname0']")
+# contactSurname.send_keys(surnameInput)
 
 contactTel = browser.find_element_by_xpath("//*[@id='frst-tel-number0']")
 print("enter your contact number:+90", end="")
