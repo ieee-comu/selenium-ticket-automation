@@ -58,3 +58,6 @@ On Ubuntu 18.04:
 <pre>
   $ python3 ticket-test.py
 </pre>
+
+## License
+* [GNU General Public License v3.0](https://github.com/ieee-comu/selenium-ticket-automation/blob/master/LICENSE)
