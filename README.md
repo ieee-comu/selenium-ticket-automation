@@ -1,5 +1,8 @@
 ## Selenium Ticket Automation Project
 
+### Preview
+[Preview the project on youtube](https://www.youtube.com/watch?v=Z40lf0TU3SA)
+
 ## Introduction
 
 This project checks whether the ticket purchase system works on [Onur Air](https://www.onurair.com/en/)'s website. This test is only set to run until the time of payment.
@@ -58,3 +61,6 @@ On Ubuntu 18.04:
 <pre>
   $ python3 ticket-test.py
 </pre>
+
+## License
+* [GNU General Public License v3.0](https://github.com/ieee-comu/selenium-ticket-automation/blob/master/LICENSE)
