@@ -1,7 +1,7 @@
 ## Selenium Ticket Automation Project
 
 ### Preview
-[Preview the project on youtube](https://www.youtube.com/watch?v=Z40lf0TU3SA)
+
 
 ## Introduction
 
